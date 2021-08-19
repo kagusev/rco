@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+  max-width: 50%;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+p {
+  max-width: 50%;
+}
