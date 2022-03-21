@@ -1398,6 +1398,8 @@ input, select, textarea {
 
 	.link-list li {
 		padding: 0.2em 0 0.2em 0;
+		display: flex; /*added for servises*/
+		justify-content: space-between; /*added for servises*/
 	}
 
 		.link-list li:first-child {
