@@ -115,7 +115,7 @@ input, select, textarea {
 	}
 
 	a {
-		text-decoration: underline;
+		text-decoration: none; /*removed link underlines through entire site*/
 	}
 
 		a:hover {
@@ -1398,8 +1398,9 @@ input, select, textarea {
 
 	.link-list li {
 		padding: 0.2em 0 0.2em 0;
-		display: flex; /*added for servises*/
-		justify-content: space-between; /*added for servises*/
+		display: flex; /*added for services*/
+		justify-content: space-between; /*added for services*/
+		text-decoration: none;/* removed underlines for services*/
 	}
 
 		.link-list li:first-child {
